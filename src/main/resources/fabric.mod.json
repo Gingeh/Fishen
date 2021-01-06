@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fishenmod",
+  "version": "1.0",
+  "name": "Fishen",
+  "description": "Make fish not eggs!",
+  "authors": [
+    "IllegalBeagle123"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/Fishen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.illegalbeagle123.fishen.Fishen"
+    ]
+  },
+  "mixins": [
+    "Fishen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
